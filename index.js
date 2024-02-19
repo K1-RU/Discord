@@ -30,7 +30,7 @@ client.on('ready', async () => {
     .setName('tite')
     .setDetails(`Valorant [${formatTime()}]`)
     .setStartTimestamp(Date.now())
- .setAssetsLargeImage('https://i.pinimg.com/originals/57/61/5b/57615b8c0092a66c1d4058b1692955cc.gif') //You can put links in tenor or discord and etc.
+ .setAssetsLargeImage('https://media1.tenor.com/m/p8ooeK3t2MMAAAAC/cry-animecry.gif') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('Boring') //Text when you hover the Large image
     .setAssetsSmallImage('') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('Twitch') //Text when you hover the Small image
