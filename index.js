@@ -23,11 +23,11 @@ client.on('ready', async () => {
   console.log(`${client.user.tag} - rich presence started!`);
 
   const r = new Discord.RichPresence()
-    .setApplicationId('1209158100335075459')
+    .setApplicationId('1209172238259978280')
     .setType('STREAMING')
-    .setURL('https://www.youtube.com/watch?v=dQw4w9WgXcQ') //Must be a youtube video link 
+    .setURL('https://www.youtube.com/watch?v=3XgtFGX0tzQ&t=1062s') //Must be a youtube video link 
     .setState('Recording')
-    .setName('')
+    .setName('tite')
     .setDetails(`Valorant [${formatTime()}]`)
     .setStartTimestamp(Date.now())
  .setAssetsLargeImage('') //You can put links in tenor or discord and etc.
