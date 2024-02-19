@@ -23,7 +23,7 @@ client.on('ready', async () => {
   console.log(`${client.user.tag} - rich presence started!`);
 
   const r = new Discord.RichPresence()
-    .setApplicationId('1209172238259978280')
+    .setApplicationId('')
     .setType('STREAMING')
     .setURL('https://www.youtube.com/watch?v=3XgtFGX0tzQ&t=1062s') //Must be a youtube video link 
     .setState('Recording')
@@ -53,5 +53,5 @@ client.on('ready', async () => {
 });
 
 const mySecret = process.env['
-NzI5MzM5NzYxMzc4MTk3NTQ1.GfmwJB.GN9C-42UtLlurPYVMsNIn_ioefVyL4iqhWPRVU'];
+'];
 client.login(mySecret);
