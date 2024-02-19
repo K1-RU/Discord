@@ -30,7 +30,7 @@ client.on('ready', async () => {
     .setName('tite')
     .setDetails(`Valorant [${formatTime()}]`)
     .setStartTimestamp(Date.now())
- .setAssetsLargeImage('') //You can put links in tenor or discord and etc.
+ .setAssetsLargeImage('https://i.pinimg.com/originals/57/61/5b/57615b8c0092a66c1d4058b1692955cc.gif') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('Boring') //Text when you hover the Large image
     .setAssetsSmallImage('') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('Twitch') //Text when you hover the Small image
@@ -38,7 +38,7 @@ client.on('ready', async () => {
     .addButton('Donate', 'https://www.youtube.com/watch?v=dQw4w9WgXcQ');
 
   client.user.setActivity(r);
-  client.user.setPresence({ status: "dnd" }); //dnd, online, idle, offline
+  client.user.setPresence({ status: "online" }); //dnd, online, idle, offline
 
   let prevTime = null;
   setInterval(() => {
